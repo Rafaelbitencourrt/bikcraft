@@ -3,10 +3,10 @@
   --cor-primaria-escura: #900;
   --fundo-1: #f7f7f7;
   --fundo-2: #ffffff;
-  -texto: #000000;
+  --texto: #000000;
 }
 
-@media (prefers-color-scheme: drak) {
+@media (prefers-color-scheme: dark) {
   :root {
     --fundo-1: #111111;
     --fundo-2: #000000;
@@ -21,6 +21,7 @@ body {
   gap: 60px;
   margin-top: 60px;
   background-color: var(--fundo-1);
+  color: var(--texto);
   font-family: Arial, Helvetica, sans-serif;
 }
 
